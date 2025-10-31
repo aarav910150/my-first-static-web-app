@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Static Web App | CST325</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #a2c2e2, #f4f7fa);
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 40px 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .intro {
+            padding: 40px 20px;
+        }
+
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+        }
+
+        .card h3 {
+            color: #0078d7;
+        }
+
+        .features {
+            background-color: #eef4fb;
+            padding: 40px 20px;
+        }
+
+        .features ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .features li {
+            padding: 8px;
+            font-weight: 500;
+        }
+
+        footer {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My First Static Web App</h1>
+        <p>Microsoft Azure Administration – CST325 Midterm Test</p>
+    </header>
+
+    <section class="intro">
+        <h2>About Us</h2>
+        <div class="members">
+            <div class="card">
+                <h3>👨‍💻 Aarav Patel</h3>
+                <p>Student ID: 123456789</p>
+                <p>Role: Front-End Developer</p>
+                <p>I created this web app as part of my CST325 Midterm to learn Azure Static Web Apps.</p>
+            </div>
+
+            <div class="card">
+                <h3>👩‍💻 Diya Patel</h3>
+                <p>Student ID: A00191915</p>
+                <p>Role: Designer</p>
+                <p>Responsible for page layout, color scheme, and testing deployment on Azure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Project Overview</h2>
+        <ul>
+            <li>Created a GitHub repository for source control</li>
+            <li>Deployed using Azure Static Web Apps</li>
+            <li>Configured build and deployment pipeline</li>
+            <li>Used HTML, CSS, and basic JavaScript for front-end</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 CST325 – Microsoft Azure Administration | Created by Gurnoor Bajwa</p>
+    </footer>
+</body>
+</html>
